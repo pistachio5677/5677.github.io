@@ -1,0 +1,6 @@
+title: 进喜的博客
+description: 记录进喜和超哥的成长过程.
+show_downloads: false
+google_analytics:
+theme: jekyll-theme-cayman
+permalink: /posts/:year-:month-:day-:title
