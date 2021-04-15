@@ -5,6 +5,8 @@ date: 2021-04-15
 categories: Python
 ---
 
+![Tour of Python Itertools | LaptrinhX](../img/1*aT_slIuZQ9Gmf6GOyugflQ.jpeg)
+
 `A Tour of Python`是为初学者学习编程写的一个文章系列。它的目标不是成为一个完美的Python教程，因此不会涉及Python的高级技巧，实现原理，甚至不会完整介绍Python的所有语法。正如名字所言，它是为没有程序设计基础的读者准备的一段旅程，希望读者能够在旅途中感受到编程的乐趣。
 
 该系列的核心通过学习编写一个实际有用程序所需的最少知识点，从中体会到编程的本质--逻辑与抽象。为什么选择Python这门语言呢？
@@ -17,4 +19,31 @@ categories: Python
 
 让我们开始旅途吧！
 
-![Tour of Python Itertools | LaptrinhX](../img/1*aT_slIuZQ9Gmf6GOyugflQ.jpeg)
+<img src="../img/5f9c658a3f64e938f5479a98_Hello World Logo.png" alt="How to Apply" style="zoom: 25%;" />
+
+学习编程的人编写的第一个程序基本都是`hello world`，这似乎成为了一个传统，那么怎么用python输出hello world呢？我们来看看代码：
+
+```python
+print('Hello world')
+```
+
+是不是超出想象的简单？这个程序的功能是在命令行输出Hello world。一个程序所做的事情就是**接收输入，进行处理之后产生输出。**我们来看一下包含输入的示例：
+
+```python
+name = input('Please enter your name:')
+print('Hello, ' + name)
+```
+
+运行过程如图所示
+
+<video src="../img/屏幕录制2021-04-15下午9.55.55.mov"></video>
+
+我们来分析一下以上这个简单的示例程序包含哪些元素：
+
+1. 字符串。字符串是python的基本数据类型之一，`'Please enter your name:'`就是一个字符串。在python中，字符串是用单引号或者双引号括起来的任意数量的字符。
+2. 函数调用。input()是一个函数，这个函数接收一个参数，将其显示在标准输出（命令行），然后从标准输入（命令行）读取用户的输入，作为返回值返回。
+3. 变量。`name`是一个变量，编程语言中的变量有点类似于数学中的未知数，用一个有意义的名字来表示值。
+4. 运算符。第2行我们我们使用`+`运算符将两个字符串拼接起来。
+5. 语句。示例程序包含两个语句。第1行是一个赋值语句，第2行是一个函数调用语句。
+
+如果这些概念让你云里雾里，不用担心，后续会有章节详细的解释。学习一门编程语言不同于学习英语，英语上语法的错误可能不会影响表达的意思。但是必须按编程语言规定的语法编写程序，才能让计算机理解你的意思正确的执行。
