@@ -5,7 +5,7 @@ date: 2021-04-15
 categories: Python
 ---
 
-![Tour of Python Itertools | LaptrinhX](../img/1*aT_slIuZQ9Gmf6GOyugflQ.jpeg)
+![Tour of Python Itertools](../img/3.jpeg)
 
 `A Tour of Python`是为初学者学习编程写的一个文章系列。它的目标不是成为一个完美的Python教程，因此不会涉及Python的高级技巧，实现原理，甚至不会完整介绍Python的所有语法。正如名字所言，它是为没有程序设计基础的读者准备的一段旅程，希望读者能够在旅途中感受到编程的乐趣。
 
@@ -36,7 +36,7 @@ print('Hello, ' + name)
 
 运行过程如图所示
 
-<video src="../img/屏幕录制2021-04-15下午9.55.55.mov"></video>
+![](../img/屏幕录制2021-04-15下午9.55.55.gif)
 
 我们来分析一下以上这个简单的示例程序包含哪些元素：
 
